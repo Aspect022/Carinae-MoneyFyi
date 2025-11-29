@@ -424,8 +424,8 @@ Follow similar steps for MoneyFyi-User project. See specific README files:
 
 - **Rajath U** - Full Stack Development, AI Integration
 - **Niharika Trivedi** - Backend Development, Database Design
-- **Aditya S Hegde** - Frontend Development, UI/UX Design
-- **Jayesh RL** - ML Engineering, AI Agent Development
+- **Aditya S Hegde** - ML Engineering, AI Agent Development
+- **Jayesh RL** - Frontend Development, UI/UX Design
 
 ---
 
@@ -475,41 +475,6 @@ Follow similar steps for MoneyFyi-User project. See specific README files:
 
 ---
 
-## 📈 Roadmap
-
-### Phase 1: MVP ✅ (Completed)
-- [x] Frontend UI with Next.js
-- [x] Authentication system
-- [x] File upload interface
-- [x] Dashboard with mock data
-- [x] Database schema
-- [x] Mobile responsive design
-- [x] PWA support
-
-### Phase 2: AI Integration 🚧 (In Progress)
-- [x] OCR pipeline (Google Gemini Vision)
-- [x] FraudGuard agent implementation
-- [x] Cashflow forecasting agent
-- [x] ComplianceMate agent
-- [x] SmartPayment recommendation logic
-- [ ] Full end-to-end integration testing
-- [ ] Performance optimization
-
-### Phase 3: Notifications & Alerts
-- [ ] WhatsApp integration via Twilio
-- [ ] Email notifications
-- [ ] Real-time WebSocket alerts
-- [ ] Alert customization UI
-
-### Phase 4: Advanced Features
-- [ ] Multi-user/team support
-- [ ] Public API with rate limiting
-- [ ] Advanced analytics dashboard
-- [ ] Custom report builder
-- [ ] Mobile apps (iOS/Android)
-- [ ] Crypto and ESG fund support (MoneyFyi-User)
-
----
 
 ## 💰 Business Model (Post-Beta)
 
