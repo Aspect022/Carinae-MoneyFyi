@@ -46,17 +46,17 @@
 
 Small and medium enterprises in India, especially retail shops and local counters, struggle with:
 
-- 💸 **Financial Fraud**: Unauthorized transactions and digital payment frauds in UPI/online payments
-- 📝 **Compliance Penalties**: Delayed or incorrect GST/TDS compliance leading to penalties
-- ⏰ **Cashflow Issues**: Late payments, unexpected shortages, and poor financial planning
-- ✋ **Manual Processes**: Traditional apps lack real-time analysis and proactive guidance
+-  **Financial Fraud**: Unauthorized transactions and digital payment frauds in UPI/online payments
+-  **Compliance Penalties**: Delayed or incorrect GST/TDS compliance leading to penalties
+-  **Cashflow Issues**: Late payments, unexpected shortages, and poor financial planning
+-  **Manual Processes**: Traditional apps lack real-time analysis and proactive guidance
 
 ### For Individuals (MoneyFyi-User)
 
-- 🎯 **Irregular Income**: Gig workers and informal sector employees struggle with savings
-- 📊 **Generic Advice**: Lack of personalized financial recommendations
-- 🌐 **Language Barriers**: Financial literacy content not available in regional languages
-- 💼 **Investment Complexity**: Difficulty in choosing appropriate moderate-risk investments
+-  **Irregular Income**: Gig workers and informal sector employees struggle with savings
+-  **Generic Advice**: Lack of personalized financial recommendations
+-  **Language Barriers**: Financial literacy content not available in regional languages
+-  **Investment Complexity**: Difficulty in choosing appropriate moderate-risk investments
 
 ---
 
