@@ -1,0 +1,111 @@
+{
+  "analysis_timestamp": "2025-11-17T17:18:07.500171",
+  "transaction_id": "TXN_001",
+  "transaction_details": {
+    "vendor": "ABC Electronics Ltd",
+    "amount": 45000,
+    "date": "2025-11-15T14:30:00Z",
+    "mode": "UPI"
+  },
+  "fraud_analysis": {
+    "transaction_id": "TXN_001",
+    "vendor": "ABC Electronics Ltd",
+    "amount": 45000,
+    "fraud_score": 30,
+    "risk_level": "low",
+    "flags": [
+      "NEW_VENDOR",
+      "WEEKEND_TRANSACTION"
+    ],
+    "reasoning": [
+      "First time transacting with ABC Electronics Ltd",
+      "Transaction on weekend - unusual for B2B"
+    ],
+    "timestamp": "2025-11-17T17:18:07.500171",
+    "recommendation": "APPROVE - Transaction appears normal"
+  },
+  "cashflow_analysis": {
+    "current_balance": 75000,
+    "cashflow_stress": "medium",
+    "7_day_forecast": [
+      {
+        "day": 1,
+        "date": "2025-11-18",
+        "predicted_balance": 116528.57,
+        "confidence": "high"
+      },
+      {
+        "day": 2,
+        "date": "2025-11-19",
+        "predicted_balance": 160242.86,
+        "confidence": "high"
+      },
+      {
+        "day": 3,
+        "date": "2025-11-20",
+        "predicted_balance": 208328.57,
+        "confidence": "high"
+      },
+      {
+        "day": 4,
+        "date": "2025-11-21",
+        "predicted_balance": 247671.43,
+        "confidence": "high"
+      },
+      {
+        "day": 5,
+        "date": "2025-11-22",
+        "predicted_balance": 291385.71,
+        "confidence": "high"
+      },
+      {
+        "day": 6,
+        "date": "2025-11-23",
+        "predicted_balance": 339471.43,
+        "confidence": "high"
+      },
+      {
+        "day": 7,
+        "date": "2025-11-24",
+        "predicted_balance": 378814.29,
+        "confidence": "high"
+      }
+    ],
+    "30_day_outlook": {
+      "trend": "positive",
+      "net_weekly_change": 306000.0
+    },
+    "risks": []
+  },
+  "payment_recommendation": {
+    "transaction_id": "TXN_001",
+    "vendor": "ABC Electronics Ltd",
+    "amount": 45000,
+    "recommendation": "PAY_PARTIALLY",
+    "payment_safety_score": 55,
+    "suggested_pct": 70,
+    "suggested_amount": 31500.0,
+    "risk_factors": [
+      " Minor fraud indicators present",
+      "First-time vendor - requires verification",
+      "Moderate cashflow pressure",
+      "No previous payment history with vendor",
+      "Payment is 60% of current balance"
+    ],
+    "positive_factors": [
+      "Proceed with caution"
+    ],
+    "alternative_actions": [
+      " Pay \u20b913,500 now, balance in 15 days",
+      "Negotiate milestone-based payments",
+      " Discuss early payment discount for reduced amount"
+    ],
+    "confidence": "medium",
+    "timestamp": "2025-11-17T17:18:07.500171"
+  },
+  "actionable_insights": [
+    "PARTIAL PAYMENT ADVISED: Pay 70% (\u20b931,500)",
+    " NEW VENDOR: First transaction - verify vendor credentials"
+  ],
+  "overall_risk_score": 40
+}

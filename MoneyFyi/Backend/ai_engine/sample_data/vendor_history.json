@@ -1,0 +1,84 @@
+{
+    "vendors": {
+      "Regular Supplier A": {
+        "avg_amount": 12500,
+        "frequency": 15,
+        "trust_score": 92,
+        "payment_history": "excellent",
+        "last_transaction_date": "2025-11-04",
+        "total_transactions": 45,
+        "total_amount_paid": 562500,
+        "typical_payment_modes": ["UPI", "NEFT"],
+        "category": "supplies"
+      },
+      "Regular Supplier B": {
+        "avg_amount": 8500,
+        "frequency": 10,
+        "trust_score": 88,
+        "payment_history": "good",
+        "last_transaction_date": "2025-11-08",
+        "total_transactions": 32,
+        "total_amount_paid": 272000,
+        "typical_payment_modes": ["NEFT", "RTGS"],
+        "category": "supplies"
+      },
+      "Client ABC Corp": {
+        "avg_amount": 55000,
+        "frequency": 8,
+        "trust_score": 95,
+        "payment_history": "excellent",
+        "last_transaction_date": "2025-11-13",
+        "total_transactions": 24,
+        "total_amount_paid": 0,
+        "total_amount_received": 1320000,
+        "typical_payment_modes": ["IMPS", "NEFT"],
+        "category": "client"
+      },
+      "Suspicious New Vendor": {
+        "avg_amount": 0,
+        "frequency": 0,
+        "trust_score": 50,
+        "payment_history": "none",
+        "last_transaction_date": null,
+        "total_transactions": 0,
+        "total_amount_paid": 0,
+        "typical_payment_modes": [],
+        "category": "unknown"
+      },
+      "Late Night Supplier": {
+        "avg_amount": 28000,
+        "frequency": 3,
+        "trust_score": 65,
+        "payment_history": "fair",
+        "last_transaction_date": "2025-10-22",
+        "total_transactions": 5,
+        "total_amount_paid": 140000,
+        "typical_payment_modes": ["UPI"],
+        "category": "urgent_supplies",
+        "notes": "Typically operates outside business hours"
+      },
+      "Trusted Vendor C": {
+        "avg_amount": 18000,
+        "frequency": 12,
+        "trust_score": 90,
+        "payment_history": "excellent",
+        "last_transaction_date": "2025-11-01",
+        "total_transactions": 38,
+        "total_amount_paid": 684000,
+        "typical_payment_modes": ["UPI", "NEFT", "RTGS"],
+        "category": "equipment"
+      },
+      "New Legitimate Vendor": {
+        "avg_amount": 15000,
+        "frequency": 2,
+        "trust_score": 70,
+        "payment_history": "good",
+        "last_transaction_date": "2025-10-28",
+        "total_transactions": 2,
+        "total_amount_paid": 30000,
+        "typical_payment_modes": ["NEFT"],
+        "category": "services",
+        "notes": "New but verified through references"
+      }
+    }
+  }

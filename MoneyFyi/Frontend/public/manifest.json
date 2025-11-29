@@ -1,0 +1,45 @@
+{
+  "name": "MoneyFyi - AI CFO",
+  "short_name": "MoneyFyi",
+  "description": "AI-powered financial intelligence for SMEs",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0F8F6E",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["finance", "business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Upload Document",
+      "url": "/upload",
+      "icons": [{"src": "/icon-192.png", "sizes": "96x96"}]
+    },
+    {
+      "name": "View Alerts",
+      "url": "/dashboard",
+      "icons": [{"src": "/icon-192.png", "sizes": "96x96"}]
+    }
+  ]
+}

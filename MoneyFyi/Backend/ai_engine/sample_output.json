@@ -1,0 +1,354 @@
+{
+  "analysis_timestamp": "2025-11-29T01:47:43.780256",
+  "normalized_transaction": {
+    "id": "TXN_001",
+    "vendor": "ABC Electronics Ltd",
+    "amount": 45000.0,
+    "utr": "UTR987654321",
+    "date": "2025-11-15T00:00:00",
+    "mode": "UPI",
+    "type": "debit",
+    "gst": null,
+    "category": "debit"
+  },
+  "fraud_analysis": {
+    "transaction_id": "TXN_001",
+    "vendor": "ABC Electronics Ltd",
+    "amount": 45000.0,
+    "fraud_score": 40,
+    "risk_level": "medium",
+    "flags": [
+      "NEW_VENDOR",
+      "WEEKEND_TRANSACTION",
+      "LATE_NIGHT_TRANSACTION"
+    ],
+    "reasoning": [
+      "First time transacting with ABC Electronics Ltd",
+      "Transaction on weekend - unusual for B2B",
+      "Transaction at 0:00 - unusual timing"
+    ],
+    "timestamp": "2025-11-29T01:47:43.773453",
+    "recommendation": "REVIEW - Additional verification recommended before payment"
+  },
+  "cashflow_analysis": {
+    "current_balance": 75000,
+    "7_day_forecast": [
+      {
+        "day": 1,
+        "date": "2025-11-30",
+        "predicted_balance": 113000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 2,
+        "date": "2025-12-01",
+        "predicted_balance": 153000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 3,
+        "date": "2025-12-02",
+        "predicted_balance": 197000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 4,
+        "date": "2025-12-03",
+        "predicted_balance": 233000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 5,
+        "date": "2025-12-04",
+        "predicted_balance": 273000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 6,
+        "date": "2025-12-05",
+        "predicted_balance": 317000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 7,
+        "date": "2025-12-06",
+        "predicted_balance": 353000.0,
+        "confidence": "high"
+      }
+    ],
+    "30_day_forecast": [
+      {
+        "day": 1,
+        "date": "2025-11-30",
+        "predicted_balance": 113000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 2,
+        "date": "2025-12-01",
+        "predicted_balance": 153000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 3,
+        "date": "2025-12-02",
+        "predicted_balance": 197000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 4,
+        "date": "2025-12-03",
+        "predicted_balance": 233000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 5,
+        "date": "2025-12-04",
+        "predicted_balance": 273000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 6,
+        "date": "2025-12-05",
+        "predicted_balance": 317000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 7,
+        "date": "2025-12-06",
+        "predicted_balance": 353000.0,
+        "confidence": "high"
+      },
+      {
+        "day": 8,
+        "date": "2025-12-07",
+        "predicted_balance": 393000.0,
+        "confidence": "medium"
+      },
+      {
+        "day": 9,
+        "date": "2025-12-08",
+        "predicted_balance": 437000.0,
+        "confidence": "medium"
+      },
+      {
+        "day": 10,
+        "date": "2025-12-09",
+        "predicted_balance": 473000.0,
+        "confidence": "medium"
+      },
+      {
+        "day": 11,
+        "date": "2025-12-10",
+        "predicted_balance": 513000.0,
+        "confidence": "medium"
+      },
+      {
+        "day": 12,
+        "date": "2025-12-11",
+        "predicted_balance": 557000.0,
+        "confidence": "medium"
+      },
+      {
+        "day": 13,
+        "date": "2025-12-12",
+        "predicted_balance": 593000.0,
+        "confidence": "medium"
+      },
+      {
+        "day": 14,
+        "date": "2025-12-13",
+        "predicted_balance": 633000.0,
+        "confidence": "medium"
+      },
+      {
+        "day": 15,
+        "date": "2025-12-14",
+        "predicted_balance": 677000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 16,
+        "date": "2025-12-15",
+        "predicted_balance": 713000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 17,
+        "date": "2025-12-16",
+        "predicted_balance": 753000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 18,
+        "date": "2025-12-17",
+        "predicted_balance": 797000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 19,
+        "date": "2025-12-18",
+        "predicted_balance": 833000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 20,
+        "date": "2025-12-19",
+        "predicted_balance": 873000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 21,
+        "date": "2025-12-20",
+        "predicted_balance": 917000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 22,
+        "date": "2025-12-21",
+        "predicted_balance": 953000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 23,
+        "date": "2025-12-22",
+        "predicted_balance": 993000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 24,
+        "date": "2025-12-23",
+        "predicted_balance": 1037000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 25,
+        "date": "2025-12-24",
+        "predicted_balance": 1073000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 26,
+        "date": "2025-12-25",
+        "predicted_balance": 1113000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 27,
+        "date": "2025-12-26",
+        "predicted_balance": 1157000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 28,
+        "date": "2025-12-27",
+        "predicted_balance": 1193000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 29,
+        "date": "2025-12-28",
+        "predicted_balance": 1233000.0,
+        "confidence": "low"
+      },
+      {
+        "day": 30,
+        "date": "2025-12-29",
+        "predicted_balance": 1277000.0,
+        "confidence": "low"
+      }
+    ],
+    "cashflow_stress": "medium",
+    "avg_weekly_income": 350000.0,
+    "avg_weekly_expense": 70000.0,
+    "net_weekly_change": 280000.0,
+    "insights": [
+      " Positive cashflow: Surplus of \u20b9280,000 per week",
+      "MODERATE STRESS: Monitor large payments carefully"
+    ],
+    "risks": [],
+    "analysis_timestamp": "2025-11-29T01:47:43.773453"
+  },
+  "payment_recommendation": {
+    "transaction_id": "TXN_001",
+    "vendor": "ABC Electronics Ltd",
+    "amount": 45000.0,
+    "recommendation": "PAY_PARTIALLY",
+    "payment_safety_score": 45,
+    "suggested_pct": 50,
+    "suggested_amount": 22500.0,
+    "risk_factors": [
+      " Moderate fraud risk (score: 40/100)",
+      "First-time vendor - requires verification",
+      "Moderate cashflow pressure",
+      "No previous payment history with vendor",
+      "Payment is 60% of current balance"
+    ],
+    "positive_factors": [
+      "Proceed with caution"
+    ],
+    "alternative_actions": [
+      " Pay \u20b913,500 now, balance in 15 days",
+      "Negotiate milestone-based payments",
+      " Discuss early payment discount for reduced amount"
+    ],
+    "confidence": "medium",
+    "timestamp": "2025-11-29T01:47:43.773453"
+  },
+  "compliance_analysis": {
+    "transaction_id": "TXN_001",
+    "vendor": "ABC Electronics Ltd",
+    "amount": 45000.0,
+    "compliance_flags": [
+      "MISSING_GST"
+    ],
+    "warnings": [
+      " GST missing for transaction of \u20b945,000"
+    ],
+    "details": [
+      "GST should be collected for B2B transactions above \u20b9200"
+    ],
+    "severity": "low",
+    "timestamp": "2025-11-29T01:47:43.780256"
+  },
+  "final_insight": {
+    "transaction_id": "TXN_001",
+    "vendor": "ABC Electronics Ltd",
+    "amount": 45000.0,
+    "final_risk_score": 44,
+    "final_action": "PAY_PARTIALLY",
+    "executive_summary": " PARTIAL PAYMENT ADVISED: Moderate risk for ABC Electronics Ltd (\u20b945,000). Risk score: 44/100.",
+    "priority_alerts": [
+      {
+        "priority": "MEDIUM",
+        "category": "FRAUD",
+        "message": " NEW VENDOR with ELEVATED AMOUNT",
+        "action": "Verify vendor identity and credentials"
+      }
+    ],
+    "insights": [
+      "Fraud Analysis: Score 40/100 (medium risk)",
+      "   Detected: NEW_VENDOR, WEEKEND_TRANSACTION, LATE_NIGHT_TRANSACTION",
+      "Cashflow Trend: Positive \u20b9280,000/week surplus",
+      "   Stress Level: MEDIUM",
+      "Compliance Issues: 1 flag(s)",
+      "   \u2022 MISSING_GST",
+      "Payment Recommendation: PAY 50% ONLY (Score: 45/100)",
+      "\u26a1 Transaction Impact: 60% of available balance"
+    ],
+    "action_plan": [
+      " Verify vendor identity through independent channels",
+      " Request additional documentation (GST cert, PAN, bank details)",
+      " Negotiate partial payment of 50% with vendor",
+      " Schedule remaining payment based on cashflow improvement"
+    ],
+    "analysis_breakdown": {
+      "fraud_score": 40,
+      "fraud_risk": "medium",
+      "cashflow_stress": "medium",
+      "compliance_severity": "low",
+      "payment_safety_score": 45
+    },
+    "timestamp": "2025-11-29T01:47:43.780256"
+  }
+}

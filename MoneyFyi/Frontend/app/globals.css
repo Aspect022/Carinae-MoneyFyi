@@ -1,0 +1,179 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Replacing with proper HSL semantic design tokens from style guide */
+  /* Core Colors - Light Mode */
+  --background: 0 0% 100%; /* #FFFFFF */
+  --foreground: 0 0% 3.9%; /* #0A0A0A */
+  --card: 0 0% 100%; /* #FFFFFF */
+  --card-foreground: 0 0% 3.9%; /* #0A0A0A */
+  --popover: 0 0% 100%; /* #FFFFFF */
+  --popover-foreground: 0 0% 3.9%; /* #0A0A0A */
+  
+  /* Primary color set to MoneyFyi green #0F8F6E */
+  --primary: 162 79% 31%; /* #0F8F6E - MoneyFyi Brand Green */
+  --primary-foreground: 0 0% 98%; /* #FAFAFA */
+  
+  /* Semantic Colors */
+  --secondary: 0 0% 96.1%; /* #F5F5F5 */
+  --secondary-foreground: 0 0% 9%; /* #171717 */
+  --muted: 0 0% 96.1%; /* #F5F5F5 */
+  --muted-foreground: 0 0% 45.1%; /* #737373 */
+  --accent: 0 0% 96.1%; /* #F5F5F5 */
+  --accent-foreground: 0 0% 9%; /* #171717 */
+  --destructive: 0 84.2% 60.2%; /* #EF4444 */
+  --destructive-foreground: 0 0% 98%; /* #FAFAFA */
+  
+  /* UI Elements */
+  --border: 0 0% 89.8%; /* #E5E5E5 */
+  --input: 0 0% 89.8%; /* #E5E5E5 */
+  --ring: 162 79% 31%; /* #0F8F6E - Matches primary */
+  
+  /* Sidebar Specific */
+  --sidebar-background: 0 0% 98%; /* #FAFAFA */
+  --sidebar-foreground: 240 5.3% 26.1%; /* #3F3F46 */
+  --sidebar-primary: 162 79% 31%; /* #0F8F6E - Green for active */
+  --sidebar-primary-foreground: 0 0% 98%; /* #FAFAFA */
+  --sidebar-accent: 240 4.8% 95.9%; /* #F4F4F5 */
+  --sidebar-accent-foreground: 240 5.9% 10%; /* #18181B */
+  --sidebar-border: 220 13% 91%; /* #E4E4E7 */
+  --sidebar-ring: 162 79% 31%; /* #0F8F6E */
+  
+  /* Chart Colors */
+  --chart-1: 162 79% 31%; /* Green - Primary brand color */
+  --chart-2: 173 58% 39%; /* Teal */
+  --chart-3: 197 37% 24%; /* Dark blue */
+  --chart-4: 43 74% 66%; /* Orange */
+  --chart-5: 27 87% 67%; /* Red-orange */
+  
+  --radius: 0.5rem; /* 8px as per style guide */
+}
+
+.dark {
+  /* Dark mode colors with proper HSL values */
+  /* Core Colors - Dark Mode */
+  --background: 0 0% 3.9%; /* #0A0A0A */
+  --foreground: 0 0% 98%; /* #FAFAFA */
+  --card: 0 0% 3.9%; /* #0A0A0A */
+  --card-foreground: 0 0% 98%; /* #FAFAFA */
+  --popover: 0 0% 3.9%; /* #0A0A0A */
+  --popover-foreground: 0 0% 98%; /* #FAFAFA */
+  
+  /* Primary stays green but lighter for dark mode */
+  --primary: 162 70% 45%; /* Lighter green for dark mode */
+  --primary-foreground: 0 0% 9%; /* #171717 */
+  
+  /* Semantic Colors - Dark Mode */
+  --secondary: 0 0% 14.9%; /* #262626 */
+  --secondary-foreground: 0 0% 98%; /* #FAFAFA */
+  --muted: 0 0% 14.9%; /* #262626 */
+  --muted-foreground: 0 0% 63.9%; /* #A3A3A3 */
+  --accent: 0 0% 14.9%; /* #262626 */
+  --accent-foreground: 0 0% 98%; /* #FAFAFA */
+  --destructive: 0 62.8% 30.6%; /* #7F1D1D */
+  --destructive-foreground: 0 0% 98%; /* #FAFAFA */
+  
+  /* UI Elements - Dark Mode */
+  --border: 0 0% 14.9%; /* #262626 */
+  --input: 0 0% 14.9%; /* #262626 */
+  --ring: 162 70% 45%; /* Lighter green */
+  
+  /* Sidebar Specific - Dark Mode */
+  --sidebar-background: 240 5.9% 10%; /* #18181B */
+  --sidebar-foreground: 240 4.8% 95.9%; /* #F4F4F5 */
+  --sidebar-primary: 162 70% 45%; /* Green lighter for dark */
+  --sidebar-primary-foreground: 0 0% 100%; /* #FFFFFF */
+  --sidebar-accent: 240 3.7% 15.9%; /* #27272A */
+  --sidebar-accent-foreground: 240 4.8% 95.9%; /* #F4F4F5 */
+  --sidebar-border: 240 3.7% 15.9%; /* #27272A */
+  --sidebar-ring: 162 70% 45%; /* Green */
+  
+  /* Chart Colors - Dark Mode */
+  --chart-1: 162 70% 50%; /* Lighter green */
+  --chart-2: 160 60% 45%; /* Teal */
+  --chart-3: 30 80% 55%; /* Orange */
+  --chart-4: 280 65% 60%; /* Purple */
+  --chart-5: 340 75% 55%; /* Pink */
+}
+
+@theme {
+  /* Font configuration as per style guide */
+  --font-sans: 'Inter', 'Inter Fallback', system-ui, -apple-system, sans-serif;
+  --font-mono: 'SF Mono', 'Roboto Mono', 'Menlo', monospace;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* Mobile-specific utilities */
+@media (max-width: 768px) {
+  button, a, input, select {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Safe area utilities for iOS notch */
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+.pt-safe {
+  padding-top: max(1rem, env(safe-area-inset-top));
+}
+
+/* Pull to refresh animation */
+@keyframes pull-to-refresh {
+  0% { transform: translateY(-100%) rotate(0deg); }
+  50% { transform: translateY(0) rotate(180deg); }
+  100% { transform: translateY(0) rotate(360deg); }
+}
+
+.pull-to-refresh-indicator {
+  animation: pull-to-refresh 1s ease-in-out infinite;
+}
+
+/* Smooth scrolling for mobile */
+.mobile-scroll {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+/* Touch-friendly swipe indicator */
+.swipeable::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 50%;
+  background: linear-gradient(to bottom, transparent, hsl(var(--primary)), transparent);
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.swipeable:active::after {
+  opacity: 0.6;
+}
